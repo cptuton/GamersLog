@@ -1,0 +1,240 @@
+/*.body {
+  background-image: url"images/background.png"
+  background-repeat: repeat-y;
+}*/
+
+#logo {
+    width: 150px;
+    height: 75px;
+    position: relative;
+    top: 7px;
+}
+
+#search_bar_button {
+  font-size : 16px;
+  background: #B5B6E4;
+  color: white;
+  border: none;
+}
+
+#info_submit {
+  width: 100px;
+  height: 100%;
+  font-size: 16px;
+  background: linear-gradient(#4F43AE, #3F339E, #1F137E);
+  color: white;
+  border: none;
+  white-space: normal;
+}
+
+#form_submit {
+  width: 100%;
+  height: 3em;
+  font-size : 16px;
+  background: #4F43AE;
+  color: white;
+  border: none;
+}
+
+#menu_submit {
+  width: 100%;
+  height: 3em;
+  font-size : 14px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+#menu_item:hover, #menu_submit:hover {
+  background: #B5B6E4;
+  color: white;
+}
+
+#form_submit:hover, #info_submit:hover {
+  background: #B5B6E4 !important;
+  color: white;
+}
+
+.dropdown-toggle:active, .dropdown-toggle:hover {
+  background-color: #4F43AE;
+  color: white;
+}
+
+.dropdown-menu a {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-menu a:hover, .dropdown-menu a:focus {
+  background-color: #4F43AE;
+  color: white;
+}
+
+#menu {
+  background: linear-gradient(#4F43AE, #3F339E, #1F137E);
+  color: black;
+  font-size: 16px;
+}
+
+#menu a {
+  color: white;
+}
+
+#menu_item {
+  background: linear-gradient(#4F43AE, #3F339E, #1F137E);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#dropdown {
+  background-color: white;
+}
+
+#head_bar {
+  background: linear-gradient(#4F43AE, #3F339E, #1F137E);
+  color: white;
+}
+
+#search_bar {
+  padding-top: 5px;
+}
+
+#wide_button {
+  background: #B5B6E4;
+  color: white;
+  width: 80px;
+}
+
+#content {
+  padding:40px 40px;
+  font-family: "Calibri";
+  background-image: url(../images/background.png);
+}
+
+#fill {
+  background-color: lightgrey;
+}
+
+#page_title {
+  background-color: white;
+}
+
+#center_img {
+  display: block;
+  margin: 0 auto;
+}
+
+#small_table {
+  max-height: 200px;
+}
+
+#large_table {
+  max-height: 425px;
+}
+
+#entry_small {
+  width: 50px;
+}
+
+#entry_medium {
+  width: 100px;
+}
+
+#entry_medium_center {
+  width: 100px;
+  text-align: center;
+}
+
+#entry_large {
+  width: 150px;
+}
+
+#strong {
+  font-weight: bold;
+}
+
+#game_info {
+  list-style-type: none;
+}
+
+#pad_left {
+  padding-left: 4em;
+}
+
+#pad_right {
+  padding-right: 4em;
+}
+
+#striped_table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.wide_table{
+  width: 100%;
+}
+
+#upvote {
+    background: transparent url(/images/upvote.png) no-repeat;
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+#downvote {
+    background: transparent url(/images/upvote.png) no-repeat;
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+#rating_legendary {
+  font-weight: bold;
+  color: #c27ba0;
+}
+
+#rating_masterpiece {
+  font-weight: bold;
+  color: #ffd966;
+}
+
+#rating_fantastic {
+  font-weight: bold;
+  color: #6d9eeb;
+}
+
+#rating_great {
+  font-weight: bold;
+  color: #6aa84f;
+}
+
+#rating_good {
+  font-weight: bold;
+  color: #00ff00;
+}
+
+#rating_okay {
+  font-weight: bold;
+  color: #d7f200;
+}
+
+#rating_meh {
+  font-weight: bold;
+  color: #f1c232;
+}
+
+#rating_bad {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#rating_terrible {
+  font-weight: bold;
+  color: #990000;
+}
+
+#rating_appalling {
+  font-weight: bold;
+  color: #000000;
+}
